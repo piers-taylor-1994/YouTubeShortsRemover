@@ -1,0 +1,19 @@
+{
+    "name": "Page Redder",
+    "description": "Make the current page red",
+    "version": "3.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "background.js"
+            ]
+        }
+    ],
+    "manifest_version": 3
+}
