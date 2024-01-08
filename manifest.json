@@ -1,17 +1,16 @@
 {
-    "name": "Page Redder",
-    "description": "Make the current page red",
+    "name": "YouTube Shorts Remover",
+    "description": "Remove anything to do with YouTube Shorts",
     "version": "3.0",
-    "permissions": [
-        "activeTab"
-    ],
+    "permissions": ["scripting", "activeTab"],
     "content_scripts": [
         {
             "matches": [
-                "<all_urls>"
-            ],
+                "https://www.youtube.com/*",
+                "https://m.youtube.com/*"
+              ],
             "js": [
-                "background.js"
+                "index.js"
             ]
         }
     ],
