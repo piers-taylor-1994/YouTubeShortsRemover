@@ -1,0 +1,11 @@
+ytm-pivot-bar-item-renderer:nth-child(2) {
+    display: none
+}
+
+ytm-reel-shelf-renderer.item.modern-typography {
+    display: none;
+}
+
+ytm-rich-section-renderer {
+    display: none;
+}

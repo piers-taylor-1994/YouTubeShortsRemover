@@ -1,0 +1,15 @@
+ytd-reel-shelf-renderer.style-scope.ytd-item-section-renderer {
+    display: none;
+}
+
+ytd-rich-section-renderer.style-scope.ytd-rich-grid-renderer:not(:first-child) {
+    display: none;
+}
+
+#sections {
+    .style-scope.ytd-guide-renderer:first-child {
+        ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2) {
+            display: none
+        }
+    }
+}
