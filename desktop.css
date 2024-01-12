@@ -13,3 +13,11 @@ ytd-rich-section-renderer.style-scope.ytd-rich-grid-renderer:not(:first-child) {
         }
     }
 }
+
+ytd-mini-guide-renderer {
+    #items {
+        ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-child(2) {
+            display: none;
+        }
+    }
+}
