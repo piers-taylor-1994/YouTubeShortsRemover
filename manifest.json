@@ -1,7 +1,7 @@
 {
     "name": "YouTube Shorts Remover",
     "description": "Remove anything to do with YouTube Shorts",
-    "version": "1.2",
+    "version": "1.21",
     "manifest_version": 3,
     "content_scripts": [
         {
@@ -15,5 +15,11 @@
     ],
     "action": {
         "default_icon": "youtubeShorts.png"
-      }
+    },
+    "icons": {
+        "16": "youtubeShorts16.png",
+        "32": "youtubeShorts32.png",
+        "48": "youtubeShorts48.png",
+        "128": "youtubeShorts128.png"
+    }
 }
