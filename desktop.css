@@ -21,3 +21,7 @@ ytd-mini-guide-renderer {
         }
     }
 }
+
+ytd-reel-shelf-renderer.style-scope.ytd-structured-description-content-renderer {
+    display: none;
+}
