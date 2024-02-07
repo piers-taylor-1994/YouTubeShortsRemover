@@ -1,15 +1,11 @@
 ytm-pivot-bar-item-renderer:nth-child(2) {
-   display: none;
+    display: none !important;
 }
 
 ytm-reel-shelf-renderer.item.modern-typography {
-    display: none;
+    display: none !important;
 }
 
 ytm-reel-shelf-renderer.modern-typography {
-    display: none;
+    display: none !important;
 }
-
-/* ytm-rich-section-renderer {
-    background: green;
-} */

@@ -1,15 +1,15 @@
 ytd-reel-shelf-renderer.style-scope.ytd-item-section-renderer {
-    display: none;
+    display: none !important;
 }
 
 ytd-rich-section-renderer.style-scope.ytd-rich-grid-renderer:not(:first-child) {
-    display: none;
+    display: none !important;
 }
 
 #sections {
     .style-scope.ytd-guide-renderer:first-child {
         ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2) {
-            display: none
+            display: none !important;
         }
     }
 }
@@ -17,11 +17,11 @@ ytd-rich-section-renderer.style-scope.ytd-rich-grid-renderer:not(:first-child) {
 ytd-mini-guide-renderer {
     #items {
         ytd-mini-guide-entry-renderer.style-scope.ytd-mini-guide-renderer:nth-child(2) {
-            display: none;
+            display: none !important;
         }
     }
 }
 
 ytd-reel-shelf-renderer.style-scope.ytd-structured-description-content-renderer {
-    display: none;
+    display: none !important;
 }
