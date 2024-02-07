@@ -17,9 +17,6 @@
         "default_icon": "youtubeShorts.png"
     },
     "icons": {
-        "16": "youtubeShorts16.png",
-        "32": "youtubeShorts32.png",
-        "48": "youtubeShorts48.png",
-        "128": "youtubeShorts128.png"
+        "48": "youtubeShorts48.png"
     }
 }
