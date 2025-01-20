@@ -9,3 +9,11 @@ ytm-reel-shelf-renderer.item.modern-typography {
 ytm-reel-shelf-renderer.modern-typography {
     display: none !important;
 }
+
+ytm-rich-section-renderer.rich-section-single-column {
+    display: none !important;
+}
+
+ytm-reel-shelf-renderer.item {
+    display: none !important;
+}

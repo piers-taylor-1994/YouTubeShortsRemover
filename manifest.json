@@ -1,7 +1,7 @@
 {
     "name": "YouTube Shorts Remover",
     "description": "Remove anything to do with YouTube Shorts",
-    "version": "1.32",
+    "version": "1.43",
     "manifest_version": 3,
     "content_scripts": [
         {
